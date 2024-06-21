@@ -46,6 +46,8 @@ def convert_df_to_excel(df):
 # Streamlit app
 st.title("Cricket Most Runs Scraper")
 
+st.write("e.g. https://www.cricbuzz.com/cricket-team/india/2/stats")
+
 link = st.text_input("Enter Link:")
 country = st.text_input("Enter Country Name:")
 
